@@ -27,7 +27,7 @@ This machine learning project predicts housing prices in Boston using a **Linear
 
 ## 🛠️ Project Workflow
 
-1. Load dataset from `sklearn.datasets`
+1. Load dataset from `github/dataprofessor`
 2. Exploratory Data Analysis (EDA) using seaborn & matplotlib
 3. Feature selection
 4. Train-Test split
@@ -45,7 +45,7 @@ This machine learning project predicts housing prices in Boston using a **Linear
 | Metric        | Value       |
 |---------------|-------------|
 | R² Score      | 0.74 (approx) |
-| MAE           | ~3.2        |
+| MSE           | ~21.6        |
 
 ---
 
