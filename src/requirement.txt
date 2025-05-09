@@ -1,3 +1,7 @@
+## 📦 Libraries Used
+
+The following libraries are required to run the project:
+
 - `numpy`
 - `pandas`
 - `matplotlib`
