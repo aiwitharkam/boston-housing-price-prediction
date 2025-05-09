@@ -49,3 +49,17 @@ This machine learning project predicts housing prices in Boston using a **Linear
 
 ---
 
+📊 Data Visualization
+Exploratory Data Analysis (EDA) was done using various plots to understand the features and their relationships with the target variable (MEDV – Median value of owner-occupied homes). Visualizations include:
+
+Heatmap of Correlation Matrix – to identify which features are most correlated with house prices
+
+Pairplots – to observe pairwise relationships between key variables
+
+Histogram/Distribution Plots – to understand the distribution of individual features
+
+Scatter Plots – to visualize the linear relationship between features like RM (average number of rooms) and MEDV
+
+Boxplots – to detect outliers in features like LSTAT, PTRATIO
+
+These visualizations helped guide feature selection and improve model performance.
