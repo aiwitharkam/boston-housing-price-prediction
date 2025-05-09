@@ -49,17 +49,27 @@ This machine learning project predicts housing prices in Boston using a **Linear
 
 ---
 
-📊 Data Visualization
-Exploratory Data Analysis (EDA) was done using various plots to understand the features and their relationships with the target variable (MEDV – Median value of owner-occupied homes). Visualizations include:
+## 📊 Data Visualization
 
-Heatmap of Correlation Matrix – to identify which features are most correlated with house prices
+As part of the **Exploratory Data Analysis (EDA)**, various data visualization techniques were used to understand the dataset and gain insights into the relationships between the features and the target variable (**Median Value of Homes** - `MEDV`).
 
-Pairplots – to observe pairwise relationships between key variables
+Key visualizations include:
 
-Histogram/Distribution Plots – to understand the distribution of individual features
+- **Correlation Heatmap:**  
+  A heatmap was used to visualize the correlations between the features, helping to identify the strongest relationships with the target variable (`MEDV`). This analysis guided feature selection for the model.
 
-Scatter Plots – to visualize the linear relationship between features like RM (average number of rooms) and MEDV
+- **Pairplots:**  
+  Pairplots were created to show pairwise relationships between key features, providing a better understanding of how each feature correlates with others and how they relate to the house prices.
 
-Boxplots – to detect outliers in features like LSTAT, PTRATIO
+- **Histograms & Distribution Plots:**  
+  These plots were used to examine the distribution of individual features, such as `CRIM`, `RM`, and `LSTAT`, and assess their skewness and the presence of outliers.
 
-These visualizations helped guide feature selection and improve model performance.
+- **Scatter Plots:**  
+  Scatter plots were used to analyze the linear relationships between the target variable `MEDV` and continuous features like `RM` (average number of rooms per dwelling), which showed a clear positive relationship.
+
+- **Boxplots:**  
+  Boxplots were used to identify outliers in features like `LSTAT` (percentage of lower status population) and `PTRATIO` (pupil-teacher ratio), providing insights into potential data issues.
+
+These visualizations were instrumental in understanding the data and making decisions about which features to include in the final model.
+
+---
